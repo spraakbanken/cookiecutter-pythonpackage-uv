@@ -1,0 +1,13 @@
+{
+  "project_name": "",
+  "repo_name": "{{ cookiecutter.project_name }}",
+  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "description": "Project description",
+  "author": "Språkbanken",
+  "email": "",
+  "github_handle": "spraakbanken",
+  "version": "0.1.0",
+  "min_python_version": "3.11",
+  "requires_python": ">={{ cookiecutter.min_python_version }}",
+  "add_syrupy": false
+}

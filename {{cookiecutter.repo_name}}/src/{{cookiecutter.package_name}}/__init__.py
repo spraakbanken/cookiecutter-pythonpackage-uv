@@ -1,0 +1,5 @@
+"""{{ cookiecutter.description }}"""
+
+
+def hello() -> str:
+    return "Hello from { cookiecutter.project_name }!"
